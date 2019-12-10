@@ -13,4 +13,15 @@ public class Organisation implements Polluter
         this.humans = new ArrayList<>();
     }
 
+    @Override
+    public int getCO2Usage()
+    {
+        return 0; // Based on problems of the humans
+    }
+
+    @Override
+    public int getNO3Usage()
+    {
+        return 0; // Based on problems of the humans
+    }
 }
